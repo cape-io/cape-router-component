@@ -10,10 +10,10 @@ import Router from './Router'
 // window.document.getElementById('root')
 // @param store: Redux store
 // @param RouteIndex: Object of components keyed by routId.
-export default function renderRoot({ rootDestEl, RouteIndex, store }) {
+export default function renderRoot({ props = {}, rootDestEl, RouteIndex, store }) {
   ReactDOM.render(
     createElement(Provider, { store },
-      createElement(connect(routing)(Router), { RouteIndex })
+      createElement(connect(routing)(Router), { RouteIndex, ...props })
     ),
     rootDestEl
   )

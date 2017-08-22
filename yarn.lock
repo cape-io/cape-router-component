@@ -736,14 +736,14 @@ cape-redux@^3.1.0:
     lodash "^4.17.2"
     redux "^3.6.0"
 
-cape-routes@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/cape-routes/-/cape-routes-1.1.1.tgz#4eebd2f8fb379671ca401e711eb51f8e3c5b73ef"
+cape-routes@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/cape-routes/-/cape-routes-1.1.2.tgz#200459d5393fe52ab5ead6be0b573b9f7e840eac"
   dependencies:
     cape-select "^2.4.0"
-    location-info "^4.2.0"
+    location-info "^4.5.0"
     lodash "^4.17.4"
-    redux-history-sync "^3.2.1"
+    redux-history-sync "^3.2.2"
     reselect "^3.0.1"
 
 cape-select@^2.4.0:
@@ -1403,9 +1403,9 @@ locate-path@^2.0.0:
     p-locate "^2.0.0"
     path-exists "^3.0.0"
 
-location-info@^4.2.0:
-  version "4.4.0"
-  resolved "https://registry.yarnpkg.com/location-info/-/location-info-4.4.0.tgz#59e04f1d59d5f227f0c99dd099d257a875c7e328"
+location-info@^4.5.0:
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/location-info/-/location-info-4.5.0.tgz#07309ddade2046771060aa2722a51a95b8d66b79"
   dependencies:
     cape-lodash "^1.12.0"
     cape-redux "^3.1.0"
@@ -1680,7 +1680,7 @@ readable-stream@^2.2.2:
     string_decoder "~1.0.3"
     util-deprecate "~1.0.1"
 
-redux-history-sync@^3.2.1:
+redux-history-sync@^3.2.2:
   version "3.2.2"
   resolved "https://registry.yarnpkg.com/redux-history-sync/-/redux-history-sync-3.2.2.tgz#8244ed8123367122f6d0002193c94a3545a9551b"
   dependencies:
