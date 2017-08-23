@@ -1,7 +1,7 @@
 import { createElement } from 'react'
 import ReactDOM from 'react-dom'
 import { connect, Provider } from 'react-redux'
-import routing from 'cape-routes'
+import routing from 'cape-router'
 import Router from './Router'
 
 // Using a class for live/hot reload
